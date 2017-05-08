@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.karthikvarma.profile.login">
+
+    <LinearLayout
+        android:layout_width="572dp"
+        android:layout_height="869dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="133dp" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:inputType="textPassword"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <EditText
+            android:id="@+id/cpassword"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:inputType="textPassword"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <Button
+            android:id="@+id/bRegister"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

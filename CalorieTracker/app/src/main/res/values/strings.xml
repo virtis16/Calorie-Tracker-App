@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalorieTracker</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="hellooo_navya">HELLOOO NAVYA</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.karthikvarma.profile.login">
+
+    <RelativeLayout
+        android:layout_width="572dp"
+        android:layout_height="869dp"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/addfoodcustomer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Add Food"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/bLogout" />
+
+        <Button
+            android:id="@+id/deletefoodcustomer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Delete Food"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:layout_below="@+id/addfoodcustomer"
+            android:layout_alignStart="@+id/addfoodcustomer" />
+
+        <Button
+            android:id="@+id/addexercisecustomer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/deletefoodcustomer"
+            android:layout_below="@+id/deletefoodcustomer"
+            android:text="add exercise"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp" />
+
+        <Button
+            android:id="@+id/deleteexercisecustomer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="delete exercise"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:layout_below="@+id/addexercisecustomer"
+            android:layout_alignStart="@+id/addexercisecustomer" />
+
+        <Button
+            android:id="@+id/addwater"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="add water"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:layout_below="@+id/deleteexercisecustomer"
+            android:layout_alignStart="@+id/deleteexercisecustomer" />
+
+        <Button
+            android:id="@+id/dailychallenge"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="daily challenge"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:layout_below="@+id/addwater"
+            android:layout_alignStart="@+id/addwater" />
+
+        <Button
+            android:id="@+id/dailyprogress"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="daily progress"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:layout_below="@+id/dailychallenge"
+            android:layout_alignStart="@+id/dailychallenge" />
+
+        <Button
+            android:id="@+id/suggest"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text=" Suggest Exercise"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:layout_below="@+id/dailyprogress"
+            android:layout_alignStart="@+id/dailyprogress" />
+
+        <Button
+            android:id="@+id/bedit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text=" Profile"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:layout_below="@+id/suggest"
+            android:layout_alignStart="@+id/suggest" />
+
+        <Button
+            android:id="@+id/bLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="326dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
